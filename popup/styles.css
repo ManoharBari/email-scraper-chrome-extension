@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 350px;
+  margin: 0;
+  padding: 10px;
+  background-color: #f4f6f8;
+}
+
+header h1 {
+  text-align: center;
+  color: #4688f1;
+}
+
+#gdpr-warning {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+#controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#controls button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #4688f1;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background-color: #376ac3;
+}
+
+#email-list {
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#email-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#email-list li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}

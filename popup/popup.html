@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Email Scraper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Email Scraper</h1>
+    </header>
+    <section id="gdpr-warning">
+      <p>
+        <strong>Notice:</strong> This extension collects email addresses from
+        pages you visit. Ensure you comply with GDPR and privacy policies.
+      </p>
+    </section>
+    <section id="controls">
+      <button id="scan-page">Scan Current Page</button>
+      <button id="export-csv">Export as CSV</button>
+      <button id="clear-history">Clear History</button>
+    </section>
+    <section id="email-list">
+      <h2>Collected Emails</h2>
+      <ul id="emails"></ul>
+    </section>
+    <script src="popup.js"></script>
+  </body>
+</html>
